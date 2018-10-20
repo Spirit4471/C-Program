@@ -1,0 +1,21 @@
+
+#include"pch.h"
+#include <stdio.h>
+ 
+/* function main begins program execution */
+int main(void)
+{
+	int pro=1;
+	int number;/* initialization */
+	int x;
+ 
+	printf("Please write the power:");
+	scanf_s("%d", &x);
+	
+	for (number = 1; number <= x; number += 1) {
+		pro *=2 ;
+	}
+ 
+	printf("Product is %d\n", pro);
+	return 0; /* indicate program ended successfully */
+} /* end function main */
