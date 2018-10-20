@@ -1,0 +1,24 @@
+
+#include "pch.h"
+#include <iostream>
+/* function main begins program execution*/
+int main(void)
+{
+	int counter = 1;
+	int pro=1;
+	int x;  /*initialization*/
+ 
+	printf("Please write the power:");
+	scanf_s("%d", &x);
+ 
+ 
+	while (counter <= x){
+		
+		pro *= 2;
+		counter += 1;
+ 
+	}
+ 
+	printf("Product is :%d", pro);
+	return 0;
+}/* end function main*/
